@@ -1,8 +1,13 @@
 package edu.core.services.model;
 
-public class Item {
-    private final int id;
+import java.io.Serializable;
+
+public class Item implements Serializable {
+    private int id;
     private String name;
+
+    public Item() {
+    }
 
     public Item(int id, String name) {
         this.id = id;
@@ -15,6 +20,10 @@ public class Item {
 
     public String getName() {
         return name;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public void setName(String name) {

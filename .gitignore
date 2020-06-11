@@ -6,3 +6,9 @@
 .idea/misc.xml
 .idea/uiDesigner.xml
 .idea/workspace.xml
+*.class
+*.jar
+*.properties
+*.lst
+*.original
+.idea/vcs.xml
