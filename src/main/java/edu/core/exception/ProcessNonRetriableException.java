@@ -1,4 +1,4 @@
-package edu.core.services.exception;
+package edu.core.exception;
 
 public class ProcessNonRetriableException extends NonRetriableException {
 

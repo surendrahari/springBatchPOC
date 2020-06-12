@@ -1,4 +1,4 @@
-package edu.core.services.model;
+package edu.core.model;
 
 import java.util.List;
 import java.util.stream.Collectors;
