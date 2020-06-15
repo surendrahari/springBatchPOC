@@ -1,4 +1,4 @@
-package edu.core.batch2.config;
+package edu.core.batch3.config;
 
 import edu.core.exception.ProcessNonRetriableException;
 import edu.core.exception.WriteNonRetriableException;
@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-public class PolicyConfig2 {
+public class PolicyConfig3 {
 
     @Bean
     public RetryTemplate retryTemplate() {
